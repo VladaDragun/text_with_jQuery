@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #feea8f;
+  text-align: center;
+  margin: 40px 100px;
+  font-size: 35px;
+  text-shadow: 1px 2px 1px #748290;
+}
+
+hr {
+  border: 1px dashed  #feea8f;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.wrapper {
+  margin: 20px;
+  padding: 10px;
+  /*border: 2px dashed #feea8f;*/
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-bottom: 40px;
+}
+
+.div1,
+.div3,
+.div5 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: #748290;
+}
+
+.div2,
+.div4,
+.div6 {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 20px;
+  color: #748290;
+}
+
+
+div > p {
+  /*margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 80px;*/
+  text-align: center;
+  /*margin: 80px 80px 20px 80px;*/
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  margin: 20px;
+  width: 270px;
+  margin-right: 80px;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+img:nth-child(even) {
+  margin-left: 80px;
+}
+
+#idNEW {
+  color: #424049;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.par {
+  margin: 15px auto;
+  text-align:center;
+  font-size: 50px;
+  color: #feea8f;
+}
+
+/*buttons*/
+
+.btns {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 170px;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 20px;
+  color: #748290;
+  text-decoration: none;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5);
+  transition: .2s ease-in-out;
+  outline: none;
+  border: 0;
+}
+
+.btn:hover:not(:active) {
+  background: #feea8f;
+  color: #424049;
+}
+
+.btn:active {
+  top: 1px;
+  background: #feea8f /*linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82)*/;
+  color: #424049;
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+
+.first {
+  margin-left: 420px;
+}
+
+.second {
+  margin-right: 420px;
+}
